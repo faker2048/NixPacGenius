@@ -15,7 +15,7 @@
       in
       {
         packages = {
-          whisper-cpp = pkgs.callPackage ./pkgs/whisper-cpp { };
+          whisper-cpp-dev = pkgs.callPackage ./pkgs/whisper-cpp-dev { };
         };
       });
 }

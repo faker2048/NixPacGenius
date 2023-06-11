@@ -14,9 +14,6 @@ llvmPackages_15.stdenv.mkDerivation rec {
 
   nativeBuildInputs = [ cmake ];
 
-  buildInputs = [ ];
-
-  cmakeFlags = [
-  ];
+  # TODO - add cuda to buildInputs and add WHISPER_CUBLAS=1 to cmakeFlags
 
 }

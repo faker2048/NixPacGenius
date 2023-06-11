@@ -9,7 +9,7 @@ llvmPackages_15.stdenv.mkDerivation rec {
     owner = "ggerganov";
     repo = pname;
     rev = "v${version}";
-    sha256 = "sha256-Qea9zGLJ41D+l8h1Sg/KJI6Ou02jtbRIxYPGoabM8nY="; # Replace with the correct SHA256 hash
+    sha256 = "sha256-Qea9zGLJ41D+l8h1Sg/KJI6Ou02jtbRIxYPGoabM8nY=";
   };
 
   nativeBuildInputs = [ cmake ];
